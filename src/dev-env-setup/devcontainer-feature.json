@@ -1,0 +1,14 @@
+{
+    "name": "Development Environment Setup",
+    "id": "dev-env-setup",
+    "version": "0.0.1",
+    "description": "Sets up a comprehensive development environment with essential tools, configurations, and Mailpit.",
+    "options": {},
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "username": "vscode",
+            "uid": 1000,
+            "gid": 1000
+        }
+    }
+}
