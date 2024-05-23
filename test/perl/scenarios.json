@@ -1,0 +1,10 @@
+{
+    "perl-5.24.3": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "perl": {
+                "version": "5.24.3"
+            }
+        }
+    }
+}
