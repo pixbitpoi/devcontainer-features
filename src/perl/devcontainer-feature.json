@@ -1,0 +1,16 @@
+{
+    "name": "perl",
+    "id": "perl",
+    "version": "0.0.1",
+    "description": "",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "5.32.0",
+            "description": "Specify the version of Perl to install"
+        }
+    },
+    "dependsOn": {
+        "ghcr.io/pixbitpoi/devcontainer-features/dev-env-setup:0": {}
+    }
+}
