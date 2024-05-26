@@ -1,6 +1,9 @@
 #!/bin/bash
 
-PERL_VERSION=${VERSION:-"5.32.0"}
+set -e
+
+PERL_VERSION=${VERSION:-"5.38.2"}
+USERNAME="vscode"
 
 git clone https://github.com/tagomoris/xbuild.git
 xbuild/perl-install $PERL_VERSION /usr/local
@@ -74,7 +77,7 @@ export PERL_CARTON_MIRROR="ftp://ftp.riken.jp/lang/CPAN/"
 export PERL5LIB="$HOME/workspace/local/lib/perl5:$PERL5LIB"
 __END__
 
-mkdir /home/vscode/perl5
-chown -R vscode.vscode /home/vscode/perl5
+mkdir /home/$USERNAME/perl5
+chown -R $USERNAME.$USERNAME /home/$USERNAME/perl5
 
 
