@@ -2,7 +2,7 @@
     "name": "perl",
     "id": "perl",
     "version": "0.0.1",
-    "description": "",
+    "description": "Perl programming language", 
     "options": {
         "version": {
             "type": "string",
