@@ -1,7 +1,7 @@
 {
     "name": "Development Environment Setup",
     "id": "dev-env-setup",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Sets up a comprehensive development environment with essential tools, configurations, and Mailpit.",
     "options": {},
     "dependsOn": {

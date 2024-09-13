@@ -49,12 +49,14 @@ setup_locale() {
     ln -sf /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 }
 
-# Setup vscode directories
+# Setup vscode/cursor directories
 setup_vscode_directories() {
     mkdir -p /home/$USERNAME/.vscode-server/extensions
     mkdir -p /home/$USERNAME/.vscode-server-insiders/extensions
+    mkdir -p /home/$USERNAME/.cursor-server/extensions
     chown -R $USERNAME:$USERNAME /home/$USERNAME/.vscode-server
     chown -R $USERNAME:$USERNAME /home/$USERNAME/.vscode-server-insiders
+    chown -R $USERNAME:$USERNAME /home/$USERNAME/.cursor-server
 }
 
 # Install mailpit
