@@ -74,7 +74,7 @@ install_mailpit() {
     # Create alias for sendmail
     cat << EOF > /home/$USERNAME/.local/bin/sendmail
 #!/bin/bash
-exec /home/$USERNAME/.local/bin/mailpit -S "$SMTP_ADDRESS" "\$@"
+exec /home/$USERNAME/.local/bin/mailpit sendmail -S "$SMTP_ADDRESS" "\$@"
 EOF
 
     chmod +x /home/$USERNAME/.local/bin/mailpit
