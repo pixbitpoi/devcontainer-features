@@ -1,12 +1,12 @@
 {
     "name": "perl",
     "id": "perl",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Perl programming language", 
     "options": {
         "version": {
             "type": "string",
-            "default": "5.32.0",
+            "default": "5.40.0",
             "description": "Specify the version of Perl to install"
         }
     },

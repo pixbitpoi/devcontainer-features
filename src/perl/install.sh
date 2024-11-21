@@ -18,7 +18,9 @@ mirrors=(
 )
 export PERL_CPANM_OPT="${mirrors[*]}"
 
-cpanm Perl::LanguageServer Perl::Critic Perl::Tidy App::perlimports
+cpanm Perl::LanguageServer Perl::Tidy
+cpanm Perl::Critic --force --notest
+cpanm App::perlimports --force --notest
 cpanm XMLRPC::Lite --force --notest
 cpanm XML::LibXML --notest
 cpanm Alien::Libxml2 --notest
