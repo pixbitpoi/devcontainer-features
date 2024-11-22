@@ -15,7 +15,7 @@ Perl programming language
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Specify the version of Perl to install | string | 5.32.0 |
+| version | Specify the version of Perl to install | string | 5.40.0 |
 
 
 
